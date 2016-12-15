@@ -21,6 +21,8 @@ app.get('/colors', function(req, res) {
 })
 
 app.listen(8080, function(err) {
+    console.log("Listening on port 8080")
+
     if (err) {
         throw err;
     }
