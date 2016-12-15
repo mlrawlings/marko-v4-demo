@@ -9,9 +9,10 @@
   "author": "Michael Rawlings <ml.rawlings@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "browser-refresh-taglib": "*",
+    "color-namer": "^1.1.0",
     "express": "^4.14.0",
     "marko": "^4.0.0-beta.4",
-    "marko-magic": "mlrawlings/marko-magic",
-    "browser-refresh-taglib":"*"
+    "marko-magic": "mlrawlings/marko-magic"
   }
 }
