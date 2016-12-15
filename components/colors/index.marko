@@ -1,0 +1,7 @@
+<import namer from 'color-namer'/>
+
+<for(color in data.colors)>
+    <div ref="foo[]" class="color-button" style={ color } on-click('changeColor', color)>
+        ${namer(color).pantone[0].name}
+    </div>
+</for>
